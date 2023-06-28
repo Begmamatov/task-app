@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+  
+    & ::-webkit-scrollbar {
+      display: none;
+      /* Safari and Chrome */
+    }
+}

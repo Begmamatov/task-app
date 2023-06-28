@@ -1,5 +1,7 @@
-export const COLORS = {
-    white: '#FBFBFB',
-    colorBlack: '#414141',
-    mainColor: '#FFCC26'
+
+
+export const colors = {
+    mainColor: '#FFCC26',
+    mainColorLight: '#FBFBFB',
+    mainColorDark: '#414141',
 }

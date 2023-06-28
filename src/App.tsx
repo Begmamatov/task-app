@@ -1,4 +1,5 @@
 import AppRouter from "./router/AppRouter";
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
       width: '100vw',
       height: '100vh'
     }}>
-      <AppRouter />
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
     </div>
   );
 }
